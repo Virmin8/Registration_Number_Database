@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>616</width>
+    <height>381</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="Add_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Registration Number</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Edit_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Edit Registration Number</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Remove_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>20</y>
+      <width>181</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Remove Registration Number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Add_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>591</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Registration_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>60</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>60</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Double Click Registration to Edit</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
